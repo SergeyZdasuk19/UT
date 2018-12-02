@@ -43,7 +43,6 @@ public class TriangleTest {
                 {
                         "", new ArrayList<Double>(Arrays.asList(Double.POSITIVE_INFINITY,Double.POSITIVE_INFINITY,Double.POSITIVE_INFINITY))
                 }
-
         };
     }
 
@@ -74,8 +73,6 @@ public class TriangleTest {
                 {
                         1.7320508075688772, new ArrayList<Double>(Arrays.asList(2.0, 2.0, 2.0))
                 }
-
-
         };
     }
     @Test(dataProvider = "checkTriangleProvider")
